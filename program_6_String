@@ -1,0 +1,11 @@
+public class program_6_String
+{
+    public static void main (String[]arg)
+    {
+        String Name = "Smrutiranjan";
+        System.out.println(Name.toUpperCase());
+        System.out.println(Name.toLowerCase());
+        System.out.println(Name.length());
+        System.out.println(Name.indexOf("r"));
+    }
+}
