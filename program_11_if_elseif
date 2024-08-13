@@ -1,0 +1,19 @@
+public class program_11_if_elseif
+{
+    public static void main (String []args)
+    {
+        int i=25;
+        if(i>18)
+        {
+            System.out.print("You are eligible");
+        }
+        else if(i<18)
+        {
+            System.out.print("You are not eligible");
+        }
+        else
+        {
+            System.out.print(i);
+        }
+    }
+}
