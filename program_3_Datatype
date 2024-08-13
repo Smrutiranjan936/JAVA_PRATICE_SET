@@ -1,0 +1,12 @@
+public class program_3_data_type
+{
+    public static void main (String []arg)
+    {
+        String name = "Smruti";     //string
+        int age = 23;               //int
+        float Num =25.32f;          //float
+        double num =245.55d;        //double
+        boolean type=true;          //boolean
+        char ch='l';                //char
+    }
+}
