@@ -1,0 +1,11 @@
+class main5
+{
+    static void m1()
+    {
+        System.out.println("m1 is not a object");
+    }
+    public static void main(String[]args)
+    {
+        main5.m1();
+    }
+}
