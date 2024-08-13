@@ -1,0 +1,13 @@
+class Main8 {
+    final int x = 10;
+    final int y = 3;
+
+    public static void main(String[] arg)
+    {
+        Main8 obj=new Main8();
+//        obj.x=3;
+//        obj.y=10;
+        System.out.println(obj.x);
+        System.out.println(obj.y);
+    }
+}
