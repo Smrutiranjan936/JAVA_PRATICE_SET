@@ -1,0 +1,15 @@
+public class program_7_do_while
+{
+    public static void main(String[]arg)
+    {
+        int x=7;
+        do
+        {
+            System.out.println(x);
+            x++;
+        }
+
+        while (x > 2) ;
+
+    }
+}
