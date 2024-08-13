@@ -1,0 +1,12 @@
+class Main4
+{
+    static void m1()
+    {
+        System.out.println("m2 method is static ");
+    }
+    public static void main(String []arg)
+    {
+        Main4 m=new Main4();
+        m.m1();
+    }
+}
