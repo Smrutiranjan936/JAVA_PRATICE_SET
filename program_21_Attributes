@@ -1,0 +1,10 @@
+class Test
+{
+    int x;
+    public static void main(String[]args)
+    {
+        Test t= new Test();
+        t.x=30;
+        System.out.println(t.x);
+    }
+}
