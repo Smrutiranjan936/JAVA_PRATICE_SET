@@ -1,0 +1,15 @@
+public class program_10_if_else
+{
+    public static void main (String[]arg)
+    {
+        int x =10;
+        if(x<20)
+        {
+            System.out.print("Hii ... I am Smrutiranjan...****");
+        }
+        else
+        {
+            System.out.println("You are wrong.....!!!");
+        }
+    }
+}
