@@ -1,0 +1,8 @@
+public class program_18_arrags
+{
+    public static void main (String[]args)
+    {
+        String [] slist ={"BBSR","NPR","CTC","KNK"};
+        System.out.println(slist);
+    }
+}
