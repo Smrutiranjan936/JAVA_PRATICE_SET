@@ -1,0 +1,9 @@
+public class program_12_String_Concatenation
+{
+    public static void main (String []args)
+    {
+        String fastName="Smruti";
+        String lastName="Ranjan";
+        System.out.print(fastName+lastName);
+    }
+}
