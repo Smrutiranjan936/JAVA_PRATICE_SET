@@ -1,0 +1,11 @@
+public class program_9_for_loop
+{
+    public static void main(String[]arg)
+    {
+        int i=1;
+        for(i=0;i<=7;i++)
+        {
+            System.out.println(i);
+        }
+    }
+}
