@@ -1,0 +1,15 @@
+
+    class Main2
+    {
+        static void m1()
+        {
+            System.out.println("m1 method is non static");
+        }
+        public static void main(String[]args)
+        {
+            Main2 m= new Main2();
+            m.m1();
+        }
+
+    }
+
