@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class program_16_Scanner
+{
+    public static void main(String []arg)
+    {
+       Scanner myScan = new Scanner(System.in);
+       System.out.println("Please  Enter your number :  ");
+       int length ;
+       int breadth;
+       length = myScan.nextInt();
+       breadth=myScan.nextInt();
+       System.out.println("The Area of a rectangle is :" +2*(length+breadth));
+
+    }
+}
