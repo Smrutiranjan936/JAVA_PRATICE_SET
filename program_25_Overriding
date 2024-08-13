@@ -1,0 +1,10 @@
+class Main7
+{
+    int x=10;
+    public static void main(String[]args)
+    {
+       Main7 t=new Main7();
+       t.x=20;
+       System.out.println(t.x);
+    }
+}
