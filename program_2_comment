@@ -1,0 +1,9 @@
+
+public class program_2_comments
+{
+    public static void main (String[]arg)
+    {
+        System.out.println("//this symbol indicate the single line comment");
+        System.out.println("/*this symbol indicates multi line comment*/");
+    }
+}
