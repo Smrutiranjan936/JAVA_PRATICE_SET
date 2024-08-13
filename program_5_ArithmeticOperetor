@@ -1,0 +1,17 @@
+public class program_5_ArithmeticOperetor
+{
+    public static void main (String[]arg)
+    {
+        int x=25;
+        int y=5;
+        int a=x+y;
+        int b=x-y;
+        int c=x*y;
+        int d=x/y;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+
+    }
+}
