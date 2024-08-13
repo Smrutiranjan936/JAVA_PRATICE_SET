@@ -1,0 +1,11 @@
+class Main
+{
+    int x=3;
+    public static void main(String[]arg)
+    {
+        Main m=new Main();
+        System.out.println(m.x);
+        Main m1=new Main();
+        System.out.println(m1.x);
+    }
+}
