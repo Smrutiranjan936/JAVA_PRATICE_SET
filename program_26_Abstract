@@ -1,0 +1,28 @@
+class Main
+
+{
+    public String fname = "Jack";
+    public int age=23;
+
+}
+{
+    class Student extends Main
+    {
+       public int passing_year = 2018;
+       public void stady()
+        {
+            System.out.println("Studying all day long");
+        }
+    }
+    class Second
+    {
+        public static void main(String[]arg)
+        {
+            Student s=new Student();
+            System.out.println(s.fname);
+            System.out.println(s.age);
+            System.out.println(s.passing_year);
+            s.stady();
+        }
+    }
+}
