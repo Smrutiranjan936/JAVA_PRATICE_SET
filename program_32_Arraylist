@@ -1,0 +1,16 @@
+
+import java.util.ArrayList;
+
+class Smruti2
+{
+    public static void main(String[] args)
+    {
+        ArrayList<String> al=new ArrayList<String>();
+        al.add("Smruti");
+        al.add("Suvendu");
+        al.add("Kalia");
+        al.add("Prabhu");
+        al.add("Roshan");
+        System.out.println(al);
+    }
+}
