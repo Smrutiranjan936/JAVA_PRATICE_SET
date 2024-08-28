@@ -1,0 +1,14 @@
+class Text
+  {
+    enum Main
+    {
+      LOW,
+      MEDDIUM,
+      HIGH,
+    }
+  public static void main(String[]args)
+  {
+    Main m = Main.LOW;
+    System.out.println(m);
+  }
+ } 
