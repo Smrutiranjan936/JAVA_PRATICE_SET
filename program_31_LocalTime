@@ -1,0 +1,9 @@
+import java.time.LocalTime;
+class Smruti1
+{
+    public static void main(String[] args)
+    {
+        LocalTime ld = LocalTime.now();
+        System.out.println(ld);
+    }
+}
