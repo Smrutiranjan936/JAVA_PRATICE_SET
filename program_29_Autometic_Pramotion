@@ -1,0 +1,17 @@
+public class program_31_Autometic_Promotion
+{
+    public void m1(float x)
+    {
+        System.out.println("M1 having float args");
+    }
+    public void m1(int y)
+    {
+        System.out.println("m1 having int args ");
+    }
+    public static void main(String[]args)
+    {
+        Main m=new Main();
+        m.m1(10.352f);
+        m.m1(10);
+    }
+}
