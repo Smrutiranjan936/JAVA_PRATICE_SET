@@ -1,0 +1,17 @@
+import java.util.HashSet;
+class Answer
+{
+    public static void main(String[] args) 
+    {
+        HashSet<String> hs=new HashSet<String>();
+        hs.add("BBSR");
+        hs.add("ctc");
+        hs.add("npr");
+        System.out.println(hs);//[BBSR,CTC,NPR]
+        hs.remove("ctc");
+        System.out.println(hs);//[BBSR,NPR]
+        System.out.println(hs.size());//3
+        hs.clear();
+        System.out.println(hs.size());//0
+    }
+}
