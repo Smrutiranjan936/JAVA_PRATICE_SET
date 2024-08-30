@@ -1,0 +1,16 @@
+import java.util.LinkedList;
+class Anime
+{
+    public static void main(String[] args)
+    {
+        LinkedList<String> al = new LinkedList<String>();
+        al.add("Smruti");
+        al.add("Suvendu");
+        al.add("Kalia");
+        al.add("Sonu");
+        al.add("Sanu");
+        al.add("Roshan");
+        al.add("Gopal");
+        System.out.println(al);
+    }
+}
